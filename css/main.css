@@ -37,7 +37,7 @@ ul {
 nav li a {
   text-decoration: none;
   color: #333;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .nav {
@@ -68,9 +68,10 @@ nav li a {
 
 h1 {
   position: absolute;
-  top: -0.2em;
+  margin: 0;
+  top: 0.5em;
   left: 0.5em;
-  width: 15%;
+  width: 55px;
 }
 
 h2 {
@@ -87,7 +88,8 @@ p {
   position: absolute;
   top: 1em;
   right: 1.5em;
-  width: 8%;
+  width: 30px;
+  cursor: pointer;
 }
 
 .body {
@@ -158,13 +160,14 @@ h3 {
 footer {
   position: relative;
   background-color: #666;
+  padding-bottom: 1em;
 }
 
 .foot-logo {
   position: absolute;
   top: 1em;
   left: 0.5em;
-  width: 15%;
+  width: 55px;
 }
 
 .footer-div {
@@ -175,7 +178,7 @@ footer {
 .footer-div a {
   display: inline-block;
   width: 32px;
-  margin: 3em 0.5em 0 0.5em;
+  margin: 4em 0.5em 0 0.5em;
 }
 
 .nav-check-footer {
@@ -185,7 +188,7 @@ footer {
 
 .nav-footer {
   top: auto;
-  bottom: 7em;
+  bottom: 8.5em;
 }
 
 small {
