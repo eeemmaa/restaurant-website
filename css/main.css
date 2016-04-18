@@ -28,7 +28,21 @@ body {
 
 header {
   position: relative;
+}
 
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  top: 2em;
+  right: 1.5em;
+  text-align: right;
 }
 
 h1 {
