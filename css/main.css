@@ -74,6 +74,17 @@ h1 {
   width: 55px;
 }
 
+.savoir-fare {
+  display: none;
+  position: absolute;
+  margin: 0;
+  top: 0.5em;
+  left: 2.5em;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+}
+
 h2 {
   margin-bottom: 0;
 }
@@ -97,6 +108,8 @@ p {
   left: 0;
   bottom: 3em;
   text-align: center;
+  transform:translateX(-50%,-50%);
+  width: 100%;
 }
 
 .selection-btn {
@@ -196,4 +209,58 @@ small {
   color: #fff;
   margin-top: 1.3em;
   font-weight: 300;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+}
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .savoir-fare {
+    display: block;
+    white-space: nowrap;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.5em;
+  }
+
+  .nav-footer {
+    bottom: 5.5em;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-footer a {
+    color: #fff;
+  }
+
+  .footer-div {
+    text-align: right;
+  }
+
+  small {
+    padding-right: 0.7em;
+  }
 }
