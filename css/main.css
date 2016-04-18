@@ -34,22 +34,43 @@ ul {
   list-style-type: none;
 }
 
-li a {
+nav li a {
   text-decoration: none;
+  color: #333;
+  font-weight: 300;
 }
 
-nav {
+.nav {
   position: absolute;
   top: 2em;
   right: 1.5em;
   text-align: right;
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -5em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .hamburger-btn {
+  background-color: #aaa;
 }
 
 h1 {
   position: absolute;
   top: -0.2em;
   left: 0.5em;
-  width: 10%;
+  width: 15%;
 }
 
 h2 {
@@ -157,9 +178,19 @@ footer {
   margin: 3em 0.5em 0 0.5em;
 }
 
+.nav-check-footer {
+  position: absolute;
+  left: -5em;
+}
+
+.nav-footer {
+  top: auto;
+  bottom: 7em;
+}
+
 small {
   display: block;
-  color: #000;
-  padding: 1.5em 7.3em;
-  margin-top: 0;
+  color: #fff;
+  margin-top: 1.3em;
+  font-weight: 300;
 }
