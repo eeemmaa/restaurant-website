@@ -40,6 +40,10 @@ nav li a {
   font-weight: 400;
 }
 
+.desktop-banner {
+  display: none;
+}
+
 .nav {
   position: absolute;
   top: 2em;
@@ -108,7 +112,7 @@ p {
   left: 0;
   bottom: 3em;
   text-align: center;
-  transform:translateX(-50%,-50%);
+  transform:translate(-50%,-50%);
   width: 100%;
 }
 
@@ -150,6 +154,7 @@ h3 {
 
 .section {
   position: relative;
+  clear: both;
 }
 
 .section-body-1 {
@@ -235,6 +240,14 @@ small {
     display: none;
   }
 
+  .mobile-banner {
+    display: none;
+  }
+
+  .desktop-banner {
+    display: block;
+  }
+
   .nav {
     display: block;
   }
@@ -260,7 +273,24 @@ small {
     text-align: right;
   }
 
+  .body {
+    bottom: 5em;
+  }
+
   small {
     padding-right: 0.7em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .card {
+    float: left;
+    width: 33.33%;
   }
 }
