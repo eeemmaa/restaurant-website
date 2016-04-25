@@ -112,8 +112,12 @@ p {
   left: 0;
   bottom: 3em;
   text-align: center;
-  transform:translate(-50%,-50%);
   width: 100%;
+}
+
+a:hover {
+  color: #939;
+  background-color: rgba(204, 204, 204, 0.5);
 }
 
 .selection-btn {
@@ -121,6 +125,11 @@ p {
   border: 1px solid #000;
   padding: 0.5em;
   color: #000;
+}
+
+.selection-btn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .card {
@@ -269,6 +278,11 @@ small {
     color: #fff;
   }
 
+  .nav-footer a:hover {
+    color: #939;
+    background-color: rgba(204, 204, 204, 0.5);
+  }
+
   .footer-div {
     text-align: right;
   }
@@ -289,8 +303,38 @@ small {
     line-height: 1.5;
   }
 
+  h2 {
+    font-size: 2rem;
+  }
+
+  .desktop-h2-p {
+    font-size: 1.5rem;
+  }
+
+  .desktop-p {
+    font-size: 1.5rem;
+    max-width: 650px;
+  }
+
+  li a {
+    font-size: 0.875rem;
+  }
+
   .card {
     float: left;
     width: 33.33%;
+    border-bottom: none;
+  }
+
+  .card p {
+    min-height: 124px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
   }
 }
