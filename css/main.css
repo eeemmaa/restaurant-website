@@ -279,10 +279,11 @@ small {
   }
 
   .section-body-3 {
-    top: 14em;
+    transform: translate(-50% 50%);
+    text-align: center;
+    top: 10em;
     left: 1em;
     padding: 0 2em;
-    text-align: center;
   }
 
   .nav-footer {
@@ -366,8 +367,7 @@ small {
   .section-body-3 {
     top: 16em;
     left: 6em;
-    padding: 0 2em;
-    text-align: center;
+    padding: 0 3em;
   }
 }
 
@@ -413,14 +413,12 @@ small {
   .section-body-2 {
     top: 4em;
     left: 8em;
-    white-space: nowrap;
   }
 
   .section-body-3 {
     top: 20em;
     left: 9em;
-    padding: 0 2em;
-    text-align: center;
+    padding: 0 4em;
   }
 
   .body {
