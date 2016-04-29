@@ -267,6 +267,24 @@ small {
     padding: 0.5em;
   }
 
+  .section-body-1 {
+    top: 2em;
+    left: 13.5em;
+    padding: 0 2em;
+  }
+
+  .section-body-2 {
+    top: 2em;
+    max-width: 300px;
+  }
+
+  .section-body-3 {
+    top: 14em;
+    left: 1em;
+    padding: 0 2em;
+    text-align: center;
+  }
+
   .nav-footer {
     bottom: 5.5em;
     color: #fff;
@@ -308,16 +326,20 @@ small {
   }
 
   .desktop-h2-p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .desktop-p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     max-width: 650px;
   }
 
   li a {
     font-size: 0.875rem;
+  }
+
+  .body {
+    bottom: 7.5em;
   }
 
   .card {
@@ -329,6 +351,24 @@ small {
   .card p {
     min-height: 124px;
   }
+
+  .section-body-1 {
+    top: 4em;
+    left: 21em;
+    padding: 0 3em;
+  }
+
+  .section-body-2 {
+    top: 4em;
+    white-space: nowrap;
+  }
+
+  .section-body-3 {
+    top: 16em;
+    left: 6em;
+    padding: 0 2em;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -336,5 +376,58 @@ small {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .desktop-h2-p {
+    font-size: 2rem;
+  }
+
+  .desktop-p {
+    font-size: 2rem;
+    max-width: 1000px;
+  }
+
+  .link-card h3 {
+    font-size: 2rem;
+  }
+
+  .card p {
+    min-height: 184px;
+  }
+
+  .link-card p {
+    font-size: 1.5rem;
+    max-width: 300px;
+  }
+
+  .section-body-1 {
+    top: 4em;
+    left: 30em;
+    padding: 0 3em;
+  }
+
+  .section-body-2 {
+    top: 4em;
+    left: 8em;
+    white-space: nowrap;
+  }
+
+  .section-body-3 {
+    top: 20em;
+    left: 9em;
+    padding: 0 2em;
+    text-align: center;
+  }
+
+  .body {
+    bottom: 11em;
+  }
+
+  .selection-btn {
+    font-size: 1.3rem;
   }
 }
